@@ -19,7 +19,7 @@ def Plus():
 
 
 def Minus():
-    tokens[index - 1] = tokens[index3 - 1] - tokens[index3 + 1]
+    tokens[index3 - 1] = tokens[index3 - 1] - tokens[index3 + 1]
     del tokens[index3:index3 + 2]
 
 
